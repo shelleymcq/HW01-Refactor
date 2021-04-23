@@ -16,7 +16,7 @@ header {
     color: #ffffff;
 }
 
-/* moved font-family to section tag because everything but the header and footer had the same family list (and I think it's all Trebuchet anyway :) 
+/* moved font-family to section tag because everything but the header and footer had the same family list 
 
 Also, put quotes around Calibri*/
 
@@ -86,7 +86,6 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -128,53 +127,24 @@ section h2 {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* combined three individual classes into single benefit class */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* removed class and combined because only instance of h3 */
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+/* combined individual classes to one class because all had same properties*/
+.benefit-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
