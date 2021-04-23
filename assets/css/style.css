@@ -82,27 +82,7 @@ p {
 
 
 /* created a single class for the three services */
-
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,21 +92,21 @@ p {
 }
 
 
-/* removed float id's and consolidated image styles */
+/* added id to each image, removed float id's, and consolidated image styles */
 
-.search-engine-optimization img {
+#SEOimage {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
-.online-reputation-management img {
+#ORMimage {
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
 
-.social-media-marketing img {
+#SMMimage {
     max-height: 200px;
     float: left;
     margin-right: 25px;
@@ -201,14 +181,14 @@ section h2 {
 }
 
 
-
-.footer {
+/* changed footer class to footer tag */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
